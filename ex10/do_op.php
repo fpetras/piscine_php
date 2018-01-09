@@ -12,9 +12,19 @@ if ($argc == 4)
 	else if ($argv[2] == '*')
 		$result = $argv[1] * $argv[3];
 	else if ($argv[2] == '/')
-		$result = $argv[1] / $argv[3];
+	{
+		if ($argv[3] == '0')
+			exit;
+		else
+			$result = $argv[1] / $argv[3];
+	}
 	else if ($argv[2] == '%')
-		$result = $argv[1] % $argv[3];
+	{
+		if ($argv[3] == '0')
+			exit;
+		else
+			$result = $argv[1] % $argv[3];
+	}
 	echo $result."\n";
 }
 else
