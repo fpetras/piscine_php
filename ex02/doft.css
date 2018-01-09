@@ -1,0 +1,144 @@
+body {background-color: #505050;}
+.header {
+	background-color: #8F8F8F;
+	width: 1500px;
+	height: 150px;
+	margin-left: 150px;
+	box-shadow: 13px 13px 13px #000;
+	border-radius: 10px;
+}
+.logo {
+	float: left;
+	margin-left: 15px;
+	margin-top: 20px;
+	width: 30%;
+}
+.reload {
+	float: right;
+	margin: 15px 15px;
+	width: 2%;
+}
+.close {
+	float: right;
+	margin-right: -30px;
+	margin-top: 120px;
+	width: 2%;
+}
+.loupe {
+	float: right;
+	margin-left: -100px;
+	margin-right: -10px;
+	margin-top: 35px;
+	margin-bottom: 150px;
+	width: 250px;
+	height: 90%;
+}
+
+.menu_left {
+	background-color: #909090;
+	width: 150px;
+	height: 600px;
+	margin-left: 200px;
+	margin-top: 25px;
+	border-radius: 10px;
+	text-align: center;
+}
+.center {
+/*	background-color: #909090;*/
+	width: 1220px;
+	height: 700px;
+	margin-left: 400px;
+	margin-bottom: -1000px;
+/*	border-radius: 10px;*/
+}
+.menu_right {
+	position: absolute;
+	background-color: #909090;
+	width: 200px;
+	height 525px;
+	margin-left: 1625px;
+	margin-bottom: 500px;
+	border-radius: 10px;
+	box-shadow: 13px 13px 13px #000;
+	text-align: center;
+}
+
+.arrow {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	width: 80px;
+}
+.hand {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 80px;
+}
+.eye {
+	border: solid red 6px;
+	border-radius: 6px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 80px;
+}
+.tool {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 80px;
+}
+.chat {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	width: 80px;
+}
+
+.cluster {
+	width: 50%;
+	margin-left: -20px;
+	margin-top: -590px;
+	width: 1220px;
+}
+
+.book {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	width: 100px;
+}
+.towel {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	width: 100px;
+}
+.brick {
+	margin-left: 15px;
+	width: 170px;
+	height: 100px;
+}
+
+.green_prompt {
+	position: relative;
+	z-index: 1;
+	background-color: #88FF89;
+	margin-left: 170px;
+	margin-top: 350px;
+	width: 500px;
+	height: 150px;
+	border-radius: 10px;
+	box-shadow: 13px 13px 13px #000;
+}
+.sentence_1 {
+	margin-left: 15px;
+	margin-top: 50px;
+	font-size: 20px;
+	font-family: Verdana, serif;
+}
+.sentence_2 {
+	margin-left: 15px;
+	margin-top: 10px;
+	font-size: 20px;
+	font-family: Verdana, serif;
+	font-style: italic;
+}
+.input_text {
+	margin-left: 15px;
+	width: 375px;
+}
