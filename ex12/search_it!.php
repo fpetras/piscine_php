@@ -8,10 +8,9 @@ if ($argc > 2)
 	{
 		$pair = explode(":", $elem);
 		if ($key == $pair[0])
-		{
-			echo $pair[1]."\n";
-			exit;
-		}
+			$result = $pair[1];
 	}
+	if ($result)
+		echo $result."\n";
 }
 ?>
