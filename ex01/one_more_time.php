@@ -61,7 +61,6 @@ if ($argc == 2)
 		echo "Wrong Format\n";
 		exit;
 	}
-	/*------------------------------------------------------*/
 	$hour = $time[0];
 	$minute = $time[1];
 	$second = $time[2];
@@ -115,6 +114,5 @@ if ($argc == 2)
 		echo $result."\n";
 	else
 		echo "Wrong Format\n";
-
 }
 ?>
