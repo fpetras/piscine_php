@@ -6,7 +6,7 @@
 <!-- By: fpetras <marvin@42.fr>                     +#+  +:+       +#+       -->
 <!--                                              +#+#+#+#+#+   +#+          -->
 <!-- Created: 2018/01/19 13:36:54 by fpetras           #+#    #+#            -->
-<!-- Updated: 2018/01/19 14:00:41 by fpetras          ###   ########.fr      -->
+<!-- Updated: 2018/01/20 09:35:37 by fpetras          ###   ########.fr      -->
 <!--                                                                         -->
 <!-- *********************************************************************** -->
 
@@ -21,7 +21,7 @@
 				height: 200px;
 				width: 200px;
 				background-color: red;
-				border-radius: 100000000px;
+				border-radius: 50%;
 			}
 		</style>
 	</head>
@@ -44,9 +44,9 @@
 					rgb++;
 					if (rgb > 2)
 						rgb = 0;
-					balloon.style.background = colors[rgb];
 					height = 200;
 					width = 200;
+					balloon.style.background = colors[rgb];
 					balloon.style.height = height + "px";
 					balloon.style.width = width + "px";
 				}
